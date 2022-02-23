@@ -1,0 +1,34 @@
+
+.cursor_default {
+    content: url('/cursors/cursor-default.svg');
+    z-index: 9999;
+    position: fixed;
+    pointer-events: none;
+}
+
+.cursor_hover .cursor_default {
+    content: url('/cursors/cursor-link.svg')
+}
+
+.cursor_videoBtn .cursor_default {
+    content: url('/cursors/cursor-video.svg')
+}
+
+.cursor_videoPreview .cursor_default {
+    content: url('/cursors/video-preview.svg');
+}
+
+.cursor_drag .cursor_default {
+    content: url('/cursors/dragg.svg');
+}
+
+.smaller_cursor {
+    width: 25px;
+    height: 25px;
+}
+
+.transition_none {
+    transition: none;
+} 
+
+

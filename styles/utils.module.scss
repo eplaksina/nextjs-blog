@@ -1,0 +1,113 @@
+.heading2X1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-weight: 800;
+    letter-spacing: -0.05rem;
+    margin: 1rem 0;
+    z-index: 1;
+}
+
+.headingX1 {
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: -0.05rem;
+    margin: 1rem 0;
+    z-index: 1;
+
+}
+
+.headingLg {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    margin: 1rem 0;
+    z-index: 1;
+
+}
+
+.headingMd {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    z-index: 1;
+
+}
+
+.borderCircle {
+    border-radius: 9999px;
+    z-index: 1;
+
+}
+
+.colorInherit {
+    color: inherit;
+    z-index: 1;
+
+}
+
+.padding1px {
+    padding-top: 1px;
+    z-index: 1;
+
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+
+}
+
+.listItem {
+    margin: 0 0 1.25rem;
+    z-index: 1;
+
+}
+
+.lightText {
+    color: #666;
+}
+
+.dragg_wrapper {
+/*  display: flex;
+    flex-direction: row;
+    justify-content: space-between; */
+    position: fixed;
+    top: 50%;
+    left: 6vw;
+    transform: translateY(-50%);
+    display: flex;
+
+    .dragg{
+        &:not(:first-child){
+            margin-left: 6vw;
+        }
+        .dragg_item{
+            height: 350px;
+            width: 350px;
+            background: #c4c4c4;
+            overflow: hidden;
+    
+        }
+    }
+
+}
+
+.box {
+    background-color: #91e600;
+	text-align: center;
+	font-family: Signika Negative, Avenir, Arial, sans-serif;
+    font-size: 18px;
+	width: 196px;
+	height: 100px;
+	line-height: 100px;
+	color: black;
+	top:0;
+	border-radius: 10px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    height: 100%;
+    width: 100%;
+}

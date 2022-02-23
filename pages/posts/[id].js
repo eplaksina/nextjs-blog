@@ -2,7 +2,10 @@ import Layout from "../../components/layout";
 import { getAllPostIds, getPostData } from '../../lib/posts'
 import Head from 'next/head'
 import Date from '../../components/date'
-import utilStyles from '../../styles/utils.module.css'
+import utilStyles from '../../styles/utils.module.scss'
+import Cursor from '../cursor/Cursor'
+import cursor_styles from '../cursor/cursor.module.scss'
+
 
 export default function Post({ postData }){
     return (
@@ -10,7 +13,7 @@ export default function Post({ postData }){
             <Head>
                 <title>{postData.title}</title>
             </Head>
-            <article>
+            <article className="video">
                 <h1 className={utilStyles.headingX1}>{postData.title}</h1>
                 <div>
                     <Date dateString={postData.date} />
